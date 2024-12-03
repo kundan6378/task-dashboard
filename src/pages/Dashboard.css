@@ -1,0 +1,92 @@
+
+   .dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+  }
+  
+  .dashboard .button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px; /* Add space between buttons */
+    margin-bottom: 30px;
+  }
+  
+  .dashboard button {
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+  }
+  
+  .dashboard button:hover {
+    background: linear-gradient(135deg, #0056b3, #003d80);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dashboard button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  .dashboard .filters {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .dashboard .filters select {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  .dashboard .filters select:focus {
+    border-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard {
+      padding: 15px;
+    }
+  
+    .dashboard h1 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  
+    .dashboard button {
+      font-size: 14px;
+      padding: 10px 20px;
+      border-radius: 20px;
+    }
+  
+    .dashboard .button-container {
+      gap: 10px;
+    }
+  }
+  
